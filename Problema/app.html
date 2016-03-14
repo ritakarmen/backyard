@@ -9,6 +9,7 @@
 <link href="css/font-awesome.min.css" rel="stylesheet">
 <link href="css/app.css" rel="stylesheet" media="screen">
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic" />
+<link href="scss/main.css" rel="stylesheet">
 </head>
   
 <body data-spy="scroll" data-target="#navbar-scroll">
@@ -16,21 +17,21 @@
 <!-- /.preloader -->
 <div id="preloader"></div>
 <div id="top"></div>
-<!-- NAVIGATION -->
-<div id="menu">
+<!-- BARRA NAVIGACION -->
+<div id="menu" class="menu navbar-fixed-top">
 	<nav class="navbar-wrapper navbar-default" role="navigation">
 		<div class="container">
 			  <div class="navbar-header">
+				<a class="navbar-brand site-name" href="#top"><img src="images/logo2.png" alt="logo"></a>
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-backyard">
 				  <span class="sr-only">Toggle navigation</span>
 				  <span class="icon-bar"></span>
 				  <span class="icon-bar"></span>
 				  <span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand site-name" href="#top"><img src="images/logo2.png" alt="logo"></a>
 			  </div>
 	 
-			  <div id="navbar-scroll" class="collapse navbar-collapse navbar-backyard navbar-right">
+			  <div id="navbar-scroll" class="collapse navbar-collapse navbar-backyard navbar-right ">
 				<ul class="nav navbar-nav">
 					<li><a href="#intro">About</a></li>
 					<li><a href="#feature">Features</a></li>
@@ -44,16 +45,15 @@
 	</nav>
 </div>
 
-<!-- /.parallax full screen background image -->
-<div class="cabeza fullscreen landing parallax">
-	
+<!-- CABECERA IMAGEN -->
+<div class="cabeza fullscreen landing parallax">	
 	<div class="overlay">
 		<div class="container">
 			<div class="row">
-				<div class="cabeza col-md-7">
+				<div class="introcabeza col-md-7 text-left">
 				
 						<!-- /.main title -->
-						<h1 class="wow fadeInLeft">
+					<h1 class="wow fadeInLeft">
 						Mobile Strategy App
 						</h1>
 
@@ -64,8 +64,8 @@
 
 					<!-- /.header button -->
 					<div class="head-btn wow fadeInLeft">
-						<a href="#feature" class="btn-primary">Features</a>
-						<a href="#subscribe" class="btn-default">Subscribe</a>
+						<a href="#feature" class="btn-primary btn-lg">Features</a>
+						<a href="#subscribe" class="btn-default btn-lg">Subscribe</a>
 					</div>
 	
 					<!-- /.phone option -->
@@ -75,24 +75,18 @@
 						<a href="#download" class="btn option"><i class="fa fa-android"></i>Android</a>
 						</p>
 					</div>			  
-
-				</div> 
-				
-				<!-- /.phone image -->
-				
+				</div> 				
 			</div>
 		</div> 
 	</div> 
 </div>
-   
-
 <!-- /.intro section -->
 <div id="intro">
 	<div class="container">
 		<div class="row">
 			<!-- /.intro image -->
 			<div class="col-md-6 intro-pic wow slideInLeft">
-				<img src="images/intro-image.jpg" alt="image" class="img-responsive">
+				<img src="images/2.jpg" alt="image" class="img-responsive">
 			</div>	
 			
 			<!-- /.intro content -->
@@ -124,7 +118,7 @@
 
 			<!-- /.feature image -->
 				<div class="feature-img">
-					<img src="images/feature-image.jpg" alt="image" class="img-responsive wow fadeInLeft">
+					<img src="images/2.jpg" alt="image" class="img-responsive wow fadeInLeft">
 				</div>
 			</div>
 		
